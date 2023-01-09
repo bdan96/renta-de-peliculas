@@ -19,7 +19,7 @@
       align-items: center;
     }
   </style>
-  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <link href="/assets/app/css/app.css" rel="stylesheet">
   <link href="{{ asset('plugins/fontawesome/css/all.min.css') }}" rel="stylesheet" />
   <!-- Global site tag (gtag.js) - Google Analytics-->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
