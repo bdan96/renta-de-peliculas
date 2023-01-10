@@ -46,8 +46,9 @@
                     <p>Esta pelicula no se puede rentar <br> porque no esta disponible</p>
                     @endif
                 </td>
+                @can('peliculasEdit')
                 <td>
-                    @can('peliculasEdit')
+
                     <a href="{{route('peliculasEdit', $pelicula->id)}}" class="btn btn-warning">
                     <span class="fas fa-pen"></span>
                     </a>
@@ -58,8 +59,9 @@
                             <span class="fas fa-trash"></span>
                         </button>
                     </form>
-                    @endcan
+
                 </td>
+                @endcan
                 </tr>
                 @endforeach
             </tbody>
